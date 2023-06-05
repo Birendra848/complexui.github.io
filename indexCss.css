@@ -225,5 +225,16 @@ html {
     grid-template-columns: 1fr 1fr 1fr; /* Three columns on large screens */
     gap: 30px; /* Adjust gap between grid items */
   }
+   .carousel-item .carousel-caption {
+    display: block;
+    text-align: center;
+    position: static;
+    transform: none;
+  }
   
+  .carousel-caption h5,
+  .carousel-caption p,
+  .carousel-caption a {
+    display: block;
+  }
 }
