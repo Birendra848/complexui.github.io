@@ -95,6 +95,10 @@ html {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
+.grid-item5 > img {
+  width: 100%;
+  height: 100%;
+}
 /* .grid-item6 {
   grid-column: 2 / span 1;
   grid-row: 2 / span 1; 
