@@ -179,3 +179,51 @@ html {
 .float-end {
   float: right;
 }
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+  /* Adjust styles for small screens */
+  .navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .flex-item {
+    width: 100%; /* Full width on small screens */
+    height: auto; /* Auto height to fit content */
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+    gap: 20px; /* Reduce gap between grid items */
+  }
+}
+
+/* Medium devices (between 577px and 992px) */
+@media (min-width: 577px) and (max-width: 992px) {
+  /* Adjust styles for medium screens */
+  .navbar {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr 1fr; /* Two columns on medium screens */
+    gap: 25px; /* Adjust gap between grid items */
+  }
+  
+}
+
+/* Large devices (above 992px) */
+@media (min-width: 993px) {
+  /* Adjust styles for large screens */
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns on large screens */
+    gap: 30px; /* Adjust gap between grid items */
+  }
+  
+}
